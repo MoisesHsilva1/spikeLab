@@ -1,0 +1,49 @@
+baseURL: https://example.org/
+locale: pt-br
+title: SpikeLab
+theme: ["PaperMod"]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
+
+minify:
+  disableXML: true
+
+pagination:
+  disableAliases: false
+  pagerSize: 3
+
+languages:
+  pt-br:
+    languageName: "Portuguese"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+
+params:
+  env: production
+  description: "SpikeLab - https://github.com/adityatelange/hugo-PaperMod"
+  author: Moises Henrique
+
+  defaultTheme: auto
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+
+  homeInfoParams:
+    Title: "Bem-vindos ao SpikeLab"
+    Content: |
+      SpikeLab é um espaço para registrar ideias, aprendizados e experiências sobre tecnologia, desenvolvimento e arquitetura de software.
+      Aqui compartilho estudos, experimentos e reflexões que surgem ao longo dos projetos e da rotina de aprendizado.
