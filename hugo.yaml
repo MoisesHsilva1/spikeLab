@@ -1,4 +1,5 @@
 baseURL: https://moiseshsilva1.github.io/spikeLab/
+defaultContentLanguage: pt-br
 locale: pt-br
 title: SpikeLab
 theme: ["PaperMod"]
