@@ -41,8 +41,6 @@ http://localhost:1313
 - [content/](content/) — conteúdos em Markdown
 - [themes/PaperMod](themes/PaperMod) — tema Hugo
 - [install.sh](install.sh) — script de instalação rápida
-- [Dockerfile](Dockerfile) — imagem Docker para o site
-- [docker-compose.yml](docker-compose.yml) — ambiente Docker Compose
 
 ## Build manual
 
