@@ -47,3 +47,8 @@ params:
     Content: |
       SpikeLab é um espaço para registrar ideias, aprendizados e experiências sobre tecnologia, desenvolvimento e arquitetura de software.
       Aqui compartilho estudos, experimentos e reflexões que surgem ao longo dos projetos e da rotina de aprendizado.
+
+  socialIcons:
+    - name: github
+      title: View Source on Github
+      url: "https://github.com/MoisesHsilva1"
