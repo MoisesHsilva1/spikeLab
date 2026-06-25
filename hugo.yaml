@@ -31,7 +31,7 @@ languages:
 
 params:
   env: production
-  description: "SpikeLab - https://github.com/adityatelange/hugo-PaperMod"
+  description: "SpikeLab - https://moiseshsilva1.github.io/spikeLab/"
   author: Moises Henrique
 
   defaultTheme: auto
