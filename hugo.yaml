@@ -33,6 +33,7 @@ params:
   env: production
   description: "SpikeLab - https://moiseshsilva1.github.io/spikeLab/"
   author: Moises Henrique
+  hideFooter: true
 
   defaultTheme: auto
   ShowReadingTime: true
