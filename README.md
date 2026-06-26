@@ -1,10 +1,30 @@
 # SpikeLab
 
-SpikeLab é um espaço para registrar ideias, aprendizados e experiências sobre tecnologia, desenvolvimento e arquitetura de software. Aqui compartilho estudos, experimentos e reflexões que surgem ao longo dos projetos e da rotina de aprendizado.
+O **SpikeLab** é um espaço dedicado ao registro de ideias, aprendizados e experimentos práticos sobre tecnologia, desenvolvimento e arquitetura de software. O projeto funciona como um laboratório de conhecimento, documentando soluções e reflexões baseadas em cenários reais de engenharia.
+
+**Acesse o site:** [moiseshsilva1.github.io/spikeLab/](https://moiseshsilva1.github.io/spikeLab/)
+
+---
 
 ## Requisitos
 
-- Hugo (versão recomendada: 0.163.3 ou superior)
+Antes de iniciar, certifique-se de ter instalado em sua máquina:
+* **Git** (para clonagem e gerenciamento de submódulos)
+* **Hugo Extended** (versão recomendada: `0.140.0` ou superior)
+  * *Nota:* A versão *Extended* é estritamente necessária para a compilação de assets e estilos do tema.
+
+---
+
+## Instalação e Configuração
+
+### 1. Clonar o Repositório
+O projeto utiliza submódulos para gerenciar o tema. Certifique-se de clonar o repositório utilizando a flag `--recurse-submodules`:
+
+```bash
+git clone --recurse-submodules [https://github.com/moiseshsilva1/spikeLab.git](https://github.com/moiseshsilva1/spikeLab.git)
+cd spikeLab
+
+```
 
 ## Instalação rápida
 
