@@ -10,6 +10,11 @@ O Kiro da AWS traz uma proposta diferente em relação ao desenvolvimento com IA
 
 O workflow do Kiro é baseado na _Requirements_, que podemos chamar de artefato de desenvolvimento. Ela seria basicamente o ponto central para o sistema de desenvolvimento com agentes de IA da IDE, o qual se quebra em 3 etapas de desenvolvimento:
 
+### Estrutura Core do Kiro: 
+
+<img width="584" height="388" alt="Screenshot from 2026-06-25 22-02-15" src="https://github.com/user-attachments/assets/941d81b5-46c0-4dba-8efe-0a99fa76795f" />
+
+
 ### 1 - Requirements ou Bug analysis
 
 Especificação de software se tornou um grande ponto na era da IA. Gosto de enxergar a especificação de software como as microdecisões dentro do design do nosso produto ou aplicação que podem comprometer a evolução do projeto ou definir como será a possível implementação.
