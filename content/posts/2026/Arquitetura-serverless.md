@@ -1,5 +1,5 @@
 ---
-date: '2026-06-26T21:57:56-03:00'
+date: '2026-06-26T18:09:39-03:00'
 draft: false
 title: 'Arquitetura Serverless'
 ---
