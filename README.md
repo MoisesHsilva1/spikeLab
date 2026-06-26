@@ -1,73 +1,96 @@
 # SpikeLab
 
-O **SpikeLab** é um espaço dedicado ao registro de ideias, aprendizados e experimentos práticos sobre tecnologia, desenvolvimento e arquitetura de software. O projeto funciona como um laboratório de conhecimento, documentando soluções e reflexões baseadas em cenários reais de engenharia.
+O **SpikeLab** é um laboratório pessoal de conhecimento dedicado ao registro de estudos, experimentos, spikes técnicos e aprendizados relacionados ao desenvolvimento de software.
 
-**Acesse o site:** [moiseshsilva1.github.io/spikeLab/](https://moiseshsilva1.github.io/spikeLab/)
 
----
+## Acesse o projeto
 
-## Requisitos
-
-Antes de iniciar, certifique-se de ter instalado em sua máquina:
-* **Git** (para clonagem e gerenciamento de submódulos)
-* **Hugo Extended** (versão recomendada: `0.140.0` ou superior)
-  * *Nota:* A versão *Extended* é estritamente necessária para a compilação de assets e estilos do tema.
+ **Website:** https://moiseshsilva1.github.io/spikeLab/
 
 ---
 
-## Instalação e Configuração
+## Pré-requisitos
 
-### 1. Clonar o Repositório
-O projeto utiliza submódulos para gerenciar o tema. Certifique-se de clonar o repositório utilizando a flag `--recurse-submodules`:
+Antes de começar, certifique-se de possuir as seguintes ferramentas instaladas:
+
+* **Git** para clonagem do repositório e gerenciamento dos submódulos.
+* **Hugo Extended** (`v0.140.0` ou superior).
+
+> A versão **Extended** do Hugo é obrigatória, pois o tema utiliza processamento de assets e compilação de estilos durante o build.
+
+---
+
+## Instalação
+
+O projeto utiliza submódulos para gerenciamento do tema utilizado pelo Hugo.
+
+Clone o repositório utilizando:
 
 ```bash
-git clone --recurse-submodules [https://github.com/moiseshsilva1/spikeLab.git](https://github.com/moiseshsilva1/spikeLab.git)
+git clone --recurse-submodules https://github.com/moiseshsilva1/spikeLab.git
 cd spikeLab
-
 ```
+
+---
 
 ## Instalação rápida
 
-Na raiz do projeto, execute:
+Na raiz do projeto execute:
 
 ```bash
 chmod +x install.sh
 ./install.sh
 ```
 
-Esse script:
+O script realiza automaticamente:
 
-- verifica se o Hugo está instalado
-- atualiza os submodulos do tema
-- gera o site estático
+* validação da instalação do Hugo;
+* atualização dos submódulos do projeto;
+* geração dos arquivos estáticos do site.
 
-## Rodar localmente
+---
 
-Para subir o site em modo de desenvolvimento:
+## Executando localmente
+
+Para iniciar o ambiente de desenvolvimento:
 
 ```bash
 ./install.sh serve
 ```
 
-O site ficará disponível em:
+O site estará disponível em:
 
 ```text
 http://localhost:1313
 ```
 
-## Estrutura principal
+---
 
-- [hugo.yaml](hugo.yaml) — configuração do site
-- [content/](content/) — conteúdos em Markdown
-- [themes/PaperMod](themes/PaperMod) — tema Hugo
-- [install.sh](install.sh) — script de instalação rápida
+## Estrutura do projeto
+
+```text
+.
+├── content/            # Conteúdo em Markdown
+├── themes/PaperMod/    # Tema Hugo utilizado pelo projeto
+├── hugo.yaml           # Configuração principal do site
+├── install.sh          # Script de instalação e execução
+└── public/             # Arquivos estáticos gerados pelo build
+```
+
+---
 
 ## Build manual
 
-Se quiser gerar os arquivos estáticos manualmente:
+Caso prefira executar o processo manualmente:
 
 ```bash
 hugo
 ```
 
-Os arquivos gerados ficam na pasta [public/](public/).
+Os arquivos gerados serão disponibilizados na pasta:
+
+```text
+public/
+```
+
+---
