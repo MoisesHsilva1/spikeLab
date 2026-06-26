@@ -1,8 +1,7 @@
 ---
 date: '2026-06-25T18:09:39-03:00'
-draft: false
-title: 'Teste Primeiro Post'
+draft: true
+title: 'Kiro IDE'
 ---
 
-
-## Meu primeiro teste 
+Muito tem se falado sobre desenvolvimento guiado com IA e junto com ele veio o caos do famoso "vibe code"
